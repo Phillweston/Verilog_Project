@@ -1,0 +1,39 @@
+# Compiled simulation models
+*.vvp
+*.out
+
+# Waveform files
+*.vcd
+*.wlf
+*.ghw
+
+# Synthesis files
+*.edif
+*.ngc
+*.bit
+*.bin
+
+# Log files
+*.log
+*.rpt
+
+# Backup files
+*~
+*.bak
+
+# Other files to ignore
+*.swp
+.DS_Store
+
+# ModelSim specific files
+*.mti
+*.do
+*.wlf
+transcript
+vsim.wlf
+work/
+*.tcl
+*.ini
+
+# ModelSim project files
+*.mpf
