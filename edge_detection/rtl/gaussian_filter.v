@@ -16,7 +16,7 @@ module gaussian_filter (
     input wire clk,             // System clock
     input wire rst_n,           // System reset, active low
     input wire [7:0] pixel_in,  // Input pixel data
-    output reg [7:0] pixel_out, // Output pixel data
+    output reg [7:0] pixel_out  // Output pixel data
 );
 
     // Coefficients for the Gaussian filter
@@ -32,6 +32,7 @@ module gaussian_filter (
     reg [15:0] sum;
     integer i;
 
+    // Note: Cannot use both the blocked assignment and non-blocking assignment in the same always block
     always @(posedge clk or negedge rst_n) begin
         if (rst_n) begin
             $display("Reset activated. Clearing sum and pixel_out.");
