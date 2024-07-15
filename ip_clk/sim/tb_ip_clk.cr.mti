@@ -1,0 +1,15 @@
+D:/git-repository/Verilog_Project/ip_clk/sim/tb_ip_clk.v {1 {vlog -work work -vopt -stats=none D:/git-repository/Verilog_Project/ip_clk/sim/tb_ip_clk.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tb_ip_clk_wiz
+
+Top level modules:
+	tb_ip_clk_wiz
+
+} {} {}} D:/git-repository/Verilog_Project/ip_clk/rtl/ip_clk.v {1 {vlog -work work -vopt -stats=none D:/git-repository/Verilog_Project/ip_clk/rtl/ip_clk.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ip_clk_wiz
+
+Top level modules:
+	ip_clk_wiz
+
+} {} {}}

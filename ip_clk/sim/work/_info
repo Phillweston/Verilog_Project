@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/git-repository/Verilog_Project/led/sim
+vclk_wiz_0
+Z0 !s110 1720458206
+!i10b 1
+!s100 Y=J61jJzQ^Pn[TTzN>dSj2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ie>OgTCUL;G=2=Oi7T7S]50
+Z2 dD:/git-repository/Verilog_Project/ip_clk/sim
+Z3 w1720453790
+8D:/git-repository/Verilog_Project/ip_clk/prj/ip_clk_wiz/ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+FD:/git-repository/Verilog_Project/ip_clk/prj/ip_clk_wiz/ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+!i122 2
+L0 70 29
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1720458206.000000
+!s107 D:/git-repository/Verilog_Project/ip_clk/prj/ip_clk_wiz/ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/git-repository/Verilog_Project/ip_clk/prj/ip_clk_wiz/ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0
+vclk_wiz_0_clk_wiz
+!s110 1720458207
+!i10b 1
+!s100 L7jGlAT8AYMW_jKY2[0Qi2
+R1
+IY5MBWKHL=IbcEI]_z0UV90
+R2
+R3
+8D:/git-repository/Verilog_Project/ip_clk/prj/ip_clk_wiz/ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+FD:/git-repository/Verilog_Project/ip_clk/prj/ip_clk_wiz/ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+!i122 3
+L0 68 157
+R4
+R5
+r1
+!s85 0
+31
+!s108 1720458207.000000
+!s107 D:/git-repository/Verilog_Project/ip_clk/prj/ip_clk_wiz/ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/git-repository/Verilog_Project/ip_clk/prj/ip_clk_wiz/ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|
+!i113 0
+R7
+R8
+vip_clk_wiz
+!s110 1720537544
+!i10b 1
+!s100 kIC@jZIGPn=LW8P^nRb273
+R1
+Ii_I;D0Pkh1jFFfQBbN4X_2
+R2
+w1720454661
+8D:/git-repository/Verilog_Project/ip_clk/rtl/ip_clk.v
+FD:/git-repository/Verilog_Project/ip_clk/rtl/ip_clk.v
+!i122 4
+L0 1 27
+R4
+R5
+r1
+!s85 0
+31
+!s108 1720537543.000000
+!s107 D:/git-repository/Verilog_Project/ip_clk/rtl/ip_clk.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/git-repository/Verilog_Project/ip_clk/rtl/ip_clk.v|
+!i113 0
+R7
+R8
+vtb_ip_clk_wiz
+R0
+!i10b 1
+!s100 VgNC3^=D[;NfleX]Okk371
+R1
+IAJIU`CmlB4NJUPEB=3WHa3
+R2
+w1720457851
+8D:/git-repository/Verilog_Project/ip_clk/sim/tb_ip_clk.v
+FD:/git-repository/Verilog_Project/ip_clk/sim/tb_ip_clk.v
+!i122 0
+L0 3 31
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/git-repository/Verilog_Project/ip_clk/sim/tb_ip_clk.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/git-repository/Verilog_Project/ip_clk/sim/tb_ip_clk.v|
+!i113 0
+R7
+R8

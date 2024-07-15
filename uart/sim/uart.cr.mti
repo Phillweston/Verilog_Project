@@ -1,0 +1,15 @@
+D:/git-repository/Verilog_Project/uart/rtl/uart_loopback.v {1 {vlog -work work -vopt -stats=none D:/git-repository/Verilog_Project/uart/rtl/uart_loopback.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module uart_loopback
+
+Top level modules:
+	uart_loopback
+
+} {} {}} D:/git-repository/Verilog_Project/uart/sim/tb_uart_loopback.v {1 {vlog -work work -vopt -stats=none D:/git-repository/Verilog_Project/uart/sim/tb_uart_loopback.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tb_uart_loopback
+
+Top level modules:
+	tb_uart_loopback
+
+} {} {}}
