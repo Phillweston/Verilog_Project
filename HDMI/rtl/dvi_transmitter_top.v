@@ -52,7 +52,7 @@ dvi_encoder encoder_b (
     .c1			(video_vsync),
     .de			(video_de),
     .dout		(blue_10bit)
-    ) ;
+    );
 
 dvi_encoder encoder_g (
     .clkin      (pclk),
@@ -63,7 +63,7 @@ dvi_encoder encoder_g (
     .c1			(1'b0),
     .de			(video_de),
     .dout		(green_10bit)
-    ) ;
+    );
 
 dvi_encoder encoder_r (
     .clkin      (pclk),
@@ -74,7 +74,7 @@ dvi_encoder encoder_r (
     .c1			(1'b0),
     .de			(video_de),
     .dout		(red_10bit)
-    ) ;
+    );
 
 //对编码后的数据进行并串转换
 serializer_10_to_1 serializer_b(

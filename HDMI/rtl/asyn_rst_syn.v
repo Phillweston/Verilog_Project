@@ -1,6 +1,4 @@
 //异步复位，同步释放，同时将复位信号改为高
-
-
 module asyn_rst_syn(
     input clk,          //目的时钟域
     input reset_n,      //异步复位，低有效

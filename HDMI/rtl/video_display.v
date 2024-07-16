@@ -1,4 +1,4 @@
-module  video_display(
+module video_display(
     input                pixel_clk,
     input                rst_n,
 

@@ -13,14 +13,14 @@ wire          pixel_clk;
 wire          pixel_clk_5x;
 wire          clk_locked;
 
-wire  [10:0]  pixel_xpos_w;
-wire  [10:0]  pixel_ypos_w;
-wire  [23:0]  pixel_data_w;
+wire  [10:0]  pixel_xpos_w;     // X position of pixel
+wire  [10:0]  pixel_ypos_w;     // Y position of pixel
+wire  [23:0]  pixel_data_w;     // RGB888 pixel data
 
-wire          video_hs;
-wire          video_vs;
-wire          video_de;
-wire  [23:0]  video_rgb;
+wire          video_hs;         // Horizontal sync signal
+wire          video_vs;         // Vertical sync signal
+wire          video_de;         // Data enable signal
+wire  [23:0]  video_rgb;        // RGB888 video in
 
 //*****************************************************
 //**                    main code
@@ -31,7 +31,7 @@ clk_wiz_0  clk_wiz_0(
     .clk_in1        (clk),
     .clk_out1       (pixel_clk),        //像素时钟
     .clk_out2       (pixel_clk_5x),     //5倍像素时钟
-    .resetn   (rst_n), // input resetn //低电平复位，自己设置
+    .resetn         (rst_n),            //低电平复位，自己设置
     .locked         (clk_locked)
 );
 

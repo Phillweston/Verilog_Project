@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_lcd_rgb_colorbar_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_lcd_rgb_colorbar" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,462.080000 us"></ZoomStartTime>
+      <ZoomEndTime time="1,583.380001 us"></ZoomEndTime>
+      <Cursor1Time time="1,500.680000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/lcd_de" type="logic">
+      <obj_property name="ElementShortName">lcd_de</obj_property>
+      <obj_property name="ObjectShortName">lcd_de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/lcd_hs" type="logic">
+      <obj_property name="ElementShortName">lcd_hs</obj_property>
+      <obj_property name="ObjectShortName">lcd_hs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/lcd_vs" type="logic">
+      <obj_property name="ElementShortName">lcd_vs</obj_property>
+      <obj_property name="ObjectShortName">lcd_vs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/lcd_bl" type="logic">
+      <obj_property name="ElementShortName">lcd_bl</obj_property>
+      <obj_property name="ObjectShortName">lcd_bl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/lcd_clk" type="logic">
+      <obj_property name="ElementShortName">lcd_clk</obj_property>
+      <obj_property name="ObjectShortName">lcd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/lcd_rst" type="logic">
+      <obj_property name="ElementShortName">lcd_rst</obj_property>
+      <obj_property name="ObjectShortName">lcd_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/lcd_rgb" type="array">
+      <obj_property name="ElementShortName">lcd_rgb[23:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_rgb[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/lcd_rgb_o" type="array">
+      <obj_property name="ElementShortName">lcd_rgb_o[23:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_rgb_o[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/lcd_rgb_i" type="array">
+      <obj_property name="ElementShortName">lcd_rgb_i[23:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_rgb_i[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/lcd_id" type="array">
+      <obj_property name="ElementShortName">lcd_id[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_id[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/lcd_pclk" type="logic">
+      <obj_property name="ElementShortName">lcd_pclk</obj_property>
+      <obj_property name="ObjectShortName">lcd_pclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/pixel_xpos" type="array">
+      <obj_property name="ElementShortName">pixel_xpos[10:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_xpos[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/pixel_ypos" type="array">
+      <obj_property name="ElementShortName">pixel_ypos[10:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_ypos[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/h_disp" type="array">
+      <obj_property name="ElementShortName">h_disp[10:0]</obj_property>
+      <obj_property name="ObjectShortName">h_disp[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/v_disp" type="array">
+      <obj_property name="ElementShortName">v_disp[10:0]</obj_property>
+      <obj_property name="ObjectShortName">v_disp[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/pixel_data" type="array">
+      <obj_property name="ElementShortName">pixel_data[23:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_data[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/u_lcd_driver/h_sync" type="array">
+      <obj_property name="ElementShortName">h_sync[10:0]</obj_property>
+      <obj_property name="ObjectShortName">h_sync[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/u_lcd_driver/h_back" type="array">
+      <obj_property name="ElementShortName">h_back[10:0]</obj_property>
+      <obj_property name="ObjectShortName">h_back[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/u_lcd_driver/h_total" type="array">
+      <obj_property name="ElementShortName">h_total[10:0]</obj_property>
+      <obj_property name="ObjectShortName">h_total[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/u_lcd_driver/v_sync" type="array">
+      <obj_property name="ElementShortName">v_sync[10:0]</obj_property>
+      <obj_property name="ObjectShortName">v_sync[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/u_lcd_driver/v_back" type="array">
+      <obj_property name="ElementShortName">v_back[10:0]</obj_property>
+      <obj_property name="ObjectShortName">v_back[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/u_lcd_driver/v_total" type="array">
+      <obj_property name="ElementShortName">v_total[10:0]</obj_property>
+      <obj_property name="ObjectShortName">v_total[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/u_lcd_driver/h_cnt" type="array">
+      <obj_property name="ElementShortName">h_cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">h_cnt[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lcd_rgb_colorbar/u_lcd_rgb_colorbar/u_lcd_driver/v_cnt" type="array">
+      <obj_property name="ElementShortName">v_cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">v_cnt[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

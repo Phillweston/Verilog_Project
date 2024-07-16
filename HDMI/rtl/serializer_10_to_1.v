@@ -1,4 +1,3 @@
-
 `timescale 1ns / 1ps
 
 module serializer_10_to_1(
