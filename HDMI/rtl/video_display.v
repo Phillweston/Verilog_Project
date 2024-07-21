@@ -26,15 +26,15 @@ always @(posedge pixel_clk ) begin
     if (!rst_n)
         pixel_data <= 16'd0;
     else begin
-        if((pixel_xpos >= 0) && (pixel_xpos < (H_DISP/5)*1))
+        if (pixel_xpos >= 0 && pixel_xpos < H_DISP / 5 * 1)
             pixel_data <= WHITE;
-        else if((pixel_xpos >= (H_DISP/5)*1) && (pixel_xpos < (H_DISP/5)*2))
-            pixel_data <= BLACK;  
-        else if((pixel_xpos >= (H_DISP/5)*2) && (pixel_xpos < (H_DISP/5)*3))
-            pixel_data <= RED;  
-        else if((pixel_xpos >= (H_DISP/5)*3) && (pixel_xpos < (H_DISP/5)*4))
+        else if (pixel_xpos >= H_DISP / 5 * 1 && pixel_xpos < H_DISP / 5 * 2)
+            pixel_data <= BLACK;
+        else if (pixel_xpos >= H_DISP / 5 * 2 && pixel_xpos < H_DISP / 5 * 3)
+            pixel_data <= RED;
+        else if (pixel_xpos >= H_DISP / 5 * 3 && pixel_xpos < H_DISP / 5 * 4)
             pixel_data <= GREEN;
-        else 
+        else
             pixel_data <= BLUE;
     end
 end

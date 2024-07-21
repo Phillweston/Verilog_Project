@@ -21,6 +21,7 @@ reg [7:0] din_q;
 
 //计算像素数据中“1”的个数
 always @ (posedge clkin) begin
+  // #1 means 1 clock cycle delay when simulation
   n1d <=#1 din[0] + din[1] + din[2] + din[3] + din[4] + din[5] + din[6] + din[7];
 
   din_q <=#1 din;
@@ -34,6 +35,7 @@ wire decision1;
 
 assign decision1 = (n1d > 4'h4) | ((n1d == 4'h4) & (din_q[0] == 1'b0));
 
+// Select the encoding rules based on the decision (true: XNOR or false: XOR)
 wire [8:0] q_m;
 assign q_m[0] = din_q[0];
 assign q_m[1] = (decision1) ? (q_m[0] ^~ din_q[1]) : (q_m[0] ^ din_q[1]);
@@ -60,6 +62,9 @@ parameter CTRLTOKEN1 = 10'b0010101011;
 parameter CTRLTOKEN2 = 10'b0101010100;
 parameter CTRLTOKEN3 = 10'b1010101011;
 
+// The number of 1 greater of 0 in the accumulation of dout (10-bit data)
+// For example: If the dout is 10'b1000000000, and next time dout is 10'b0011111111, 
+// then the cnt is 11000 and next time will be 11110
 reg [4:0] cnt; //disparity counter, MSB is the sign bit
 wire decision2, decision3;
 
@@ -99,14 +104,14 @@ always @ (posedge clkin or posedge rstin) begin
     cnt <= 5'h0;
   end else begin
     if (de_reg) begin
-      if(decision2) begin
+      if (decision2) begin
         dout[9]   <=#1 ~q_m_reg[8]; 
         dout[8]   <=#1 q_m_reg[8]; 
         dout[7:0] <=#1 (q_m_reg[8]) ? q_m_reg[7:0] : ~q_m_reg[7:0];
 
         cnt <=#1 (~q_m_reg[8]) ? (cnt + n0q_m - n1q_m) : (cnt + n1q_m - n0q_m);
       end else begin
-        if(decision3) begin
+        if (decision3) begin
           dout[9]   <=#1 1'b1;
           dout[8]   <=#1 q_m_reg[8];
           dout[7:0] <=#1 ~q_m_reg[7:0];
@@ -133,4 +138,4 @@ always @ (posedge clkin or posedge rstin) begin
   end
 end
 
-endmodule 
+endmodule

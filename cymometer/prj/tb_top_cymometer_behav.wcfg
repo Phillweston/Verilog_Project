@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_cymometer_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top_cymometer" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="300.000001 us"></ZoomEndTime>
+      <Cursor1Time time="49.464138 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="58" />
+   <wvobject fp_name="/tb_top_cymometer/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/clk_fx" type="logic">
+      <obj_property name="ElementShortName">clk_fx</obj_property>
+      <obj_property name="ObjectShortName">clk_fx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/clk_out1" type="logic">
+      <obj_property name="ElementShortName">clk_out1</obj_property>
+      <obj_property name="ObjectShortName">clk_out1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/clk_out2" type="logic">
+      <obj_property name="ElementShortName">clk_out2</obj_property>
+      <obj_property name="ObjectShortName">clk_out2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/lcd_hs" type="logic">
+      <obj_property name="ElementShortName">lcd_hs</obj_property>
+      <obj_property name="ObjectShortName">lcd_hs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/lcd_vs" type="logic">
+      <obj_property name="ElementShortName">lcd_vs</obj_property>
+      <obj_property name="ObjectShortName">lcd_vs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/lcd_de" type="logic">
+      <obj_property name="ElementShortName">lcd_de</obj_property>
+      <obj_property name="ObjectShortName">lcd_de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/lcd_bl" type="logic">
+      <obj_property name="ElementShortName">lcd_bl</obj_property>
+      <obj_property name="ObjectShortName">lcd_bl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/lcd_clk" type="logic">
+      <obj_property name="ElementShortName">lcd_clk</obj_property>
+      <obj_property name="ObjectShortName">lcd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/lcd_rst" type="logic">
+      <obj_property name="ElementShortName">lcd_rst</obj_property>
+      <obj_property name="ObjectShortName">lcd_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/lcd_rgb" type="array">
+      <obj_property name="ElementShortName">lcd_rgb[23:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_rgb[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/CNT_GATE_MAX" type="array">
+      <obj_property name="ElementShortName">CNT_GATE_MAX[27:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT_GATE_MAX[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/CNT_GATE_LOW" type="array">
+      <obj_property name="ElementShortName">CNT_GATE_LOW[27:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT_GATE_LOW[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/CLK_FS_FREQ" type="array">
+      <obj_property name="ElementShortName">CLK_FS_FREQ[27:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_FS_FREQ[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/CNT_TIME_MAX" type="array">
+      <obj_property name="ElementShortName">CNT_TIME_MAX[27:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT_TIME_MAX[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/DIV_N" type="array">
+      <obj_property name="ElementShortName">DIV_N[25:0]</obj_property>
+      <obj_property name="ObjectShortName">DIV_N[25:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/clk_fs" type="logic">
+      <obj_property name="ElementShortName">clk_fs</obj_property>
+      <obj_property name="ObjectShortName">clk_fs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/clk_fx" type="logic">
+      <obj_property name="ElementShortName">clk_fx</obj_property>
+      <obj_property name="ObjectShortName">clk_fx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/data_fx" type="array">
+      <obj_property name="ElementShortName">data_fx[29:0]</obj_property>
+      <obj_property name="ObjectShortName">data_fx[29:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/quotient" type="array">
+      <obj_property name="ElementShortName">quotient[56:0]</obj_property>
+      <obj_property name="ObjectShortName">quotient[56:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/remainder" type="array">
+      <obj_property name="ElementShortName">remainder[56:0]</obj_property>
+      <obj_property name="ObjectShortName">remainder[56:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/vld_out" type="logic">
+      <obj_property name="ElementShortName">vld_out</obj_property>
+      <obj_property name="ObjectShortName">vld_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/dividend" type="array">
+      <obj_property name="ElementShortName">dividend[56:0]</obj_property>
+      <obj_property name="ObjectShortName">dividend[56:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/divisor" type="array">
+      <obj_property name="ElementShortName">divisor[56:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor[56:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/gate_sclk" type="logic">
+      <obj_property name="ElementShortName">gate_sclk</obj_property>
+      <obj_property name="ObjectShortName">gate_sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/cnt_gate_fs" type="array">
+      <obj_property name="ElementShortName">cnt_gate_fs[27:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_gate_fs[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/gate_fx" type="logic">
+      <obj_property name="ElementShortName">gate_fx</obj_property>
+      <obj_property name="ObjectShortName">gate_fx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/gate_fx_d0" type="logic">
+      <obj_property name="ElementShortName">gate_fx_d0</obj_property>
+      <obj_property name="ObjectShortName">gate_fx_d0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/gate_fx_d1" type="logic">
+      <obj_property name="ElementShortName">gate_fx_d1</obj_property>
+      <obj_property name="ObjectShortName">gate_fx_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/gate_fx_d2" type="logic">
+      <obj_property name="ElementShortName">gate_fx_d2</obj_property>
+      <obj_property name="ObjectShortName">gate_fx_d2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/gate_fx_d3" type="logic">
+      <obj_property name="ElementShortName">gate_fx_d3</obj_property>
+      <obj_property name="ObjectShortName">gate_fx_d3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/gate_fs" type="logic">
+      <obj_property name="ElementShortName">gate_fs</obj_property>
+      <obj_property name="ObjectShortName">gate_fs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/gate_fs_d0" type="logic">
+      <obj_property name="ElementShortName">gate_fs_d0</obj_property>
+      <obj_property name="ObjectShortName">gate_fs_d0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/gate_fs_d1" type="logic">
+      <obj_property name="ElementShortName">gate_fs_d1</obj_property>
+      <obj_property name="ObjectShortName">gate_fs_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/cnt_fx" type="array">
+      <obj_property name="ElementShortName">cnt_fx[29:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_fx[29:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/cnt_fx_reg" type="array">
+      <obj_property name="ElementShortName">cnt_fx_reg[29:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_fx_reg[29:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/cnt_fs" type="array">
+      <obj_property name="ElementShortName">cnt_fs[29:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_fs[29:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/cnt_fs_reg" type="array">
+      <obj_property name="ElementShortName">cnt_fs_reg[29:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_fs_reg[29:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/cnt_fs_reg_reg" type="array">
+      <obj_property name="ElementShortName">cnt_fs_reg_reg[29:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_fs_reg_reg[29:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/calc_flag" type="logic">
+      <obj_property name="ElementShortName">calc_flag</obj_property>
+      <obj_property name="ObjectShortName">calc_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/numer" type="array">
+      <obj_property name="ElementShortName">numer[56:0]</obj_property>
+      <obj_property name="ObjectShortName">numer[56:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/fx_flag" type="logic">
+      <obj_property name="ElementShortName">fx_flag</obj_property>
+      <obj_property name="ObjectShortName">fx_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/numer_reg" type="array">
+      <obj_property name="ElementShortName">numer_reg[56:0]</obj_property>
+      <obj_property name="ObjectShortName">numer_reg[56:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/cnt_dely" type="array">
+      <obj_property name="ElementShortName">cnt_dely[27:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_dely[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/flag_dely" type="logic">
+      <obj_property name="ElementShortName">flag_dely</obj_property>
+      <obj_property name="ObjectShortName">flag_dely</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/gate_fx_pose" type="logic">
+      <obj_property name="ElementShortName">gate_fx_pose</obj_property>
+      <obj_property name="ObjectShortName">gate_fx_pose</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/gate_fx_nege" type="logic">
+      <obj_property name="ElementShortName">gate_fx_nege</obj_property>
+      <obj_property name="ObjectShortName">gate_fx_nege</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/gate_fs_nege" type="logic">
+      <obj_property name="ElementShortName">gate_fs_nege</obj_property>
+      <obj_property name="ObjectShortName">gate_fs_nege</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/CNT_GATE_MAX" type="array">
+      <obj_property name="ElementShortName">CNT_GATE_MAX[27:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT_GATE_MAX[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/CNT_TIME_MAX" type="array">
+      <obj_property name="ElementShortName">CNT_TIME_MAX[27:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT_TIME_MAX[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/CNT_GATE_LOW" type="array">
+      <obj_property name="ElementShortName">CNT_GATE_LOW[27:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT_GATE_LOW[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/CLK_FS_FREQ" type="array">
+      <obj_property name="ElementShortName">CLK_FS_FREQ[27:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_FS_FREQ[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_cymometer/u_top_cymometer/u_cymometer/TIME" type="array">
+      <obj_property name="ElementShortName">TIME[9:0]</obj_property>
+      <obj_property name="ObjectShortName">TIME[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -66,12 +66,12 @@ dvi_transmitter_top u_rgb2dvi_0(
     .pclk           (pixel_clk),
     .pclk_x5        (pixel_clk_5x),
     .reset_n        (rst_n & clk_locked),
-                
+
     .video_din      (video_rgb),
     .video_hsync    (video_hs), 
     .video_vsync    (video_vs),
     .video_de       (video_de),
-                
+
     .tmds_clk_p     (tmds_clk_p),
     .tmds_clk_n     (tmds_clk_n),
     .tmds_data_p    (tmds_data_p),

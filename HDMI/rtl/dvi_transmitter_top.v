@@ -79,36 +79,36 @@ dvi_encoder encoder_r (
 //对编码后的数据进行并串转换
 serializer_10_to_1 serializer_b(
     .reset              (reset),                // 复位,高有效
-    .paralell_clk       (pclk),                 // 输入并行数据时钟
+    .parallel_clk       (pclk),                 // 输入并行数据时钟
     .serial_clk_5x      (pclk_x5),              // 输入串行数据时钟
-    .paralell_data      (blue_10bit),           // 输入并行数据
+    .parallel_data      (blue_10bit),           // 输入并行数据
 
     .serial_data_out    (tmds_data_serial[0])   // 输出串行数据
     );    
 
 serializer_10_to_1 serializer_g(
     .reset              (reset),
-    .paralell_clk       (pclk),
+    .parallel_clk       (pclk),
     .serial_clk_5x      (pclk_x5),
-    .paralell_data      (green_10bit),
+    .parallel_data      (green_10bit),
 
     .serial_data_out    (tmds_data_serial[1])
     );
 
 serializer_10_to_1 serializer_r(
     .reset              (reset),
-    .paralell_clk       (pclk),
+    .parallel_clk       (pclk),
     .serial_clk_5x      (pclk_x5),
-    .paralell_data      (red_10bit),
+    .parallel_data      (red_10bit),
 
     .serial_data_out    (tmds_data_serial[2])
     );
 
 serializer_10_to_1 serializer_clk(
     .reset              (reset),
-    .paralell_clk       (pclk),
+    .parallel_clk       (pclk),
     .serial_clk_5x      (pclk_x5),
-    .paralell_data      (clk_10bit),
+    .parallel_data      (clk_10bit),
 
     .serial_data_out    (tmds_clk_serial)
     );
